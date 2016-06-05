@@ -1,0 +1,90 @@
+*{box-sizing: border-box;
+}
+body{
+
+  background: linear-gradient(blue, white);
+  font-family: helvetica;
+  }
+  nav{
+    height: 3em;
+  }
+  nav li{
+    display: inline;
+    border-bottom: 0.15em solid white;
+    margin-left: 2em;
+  }
+  nav a{
+    text-decoration: none;
+    color: white;
+    font-size: 1em;
+  }
+ nav a:hover{
+    color:red;
+    background-color: white;
+  }
+.mast-head{
+  background-image: url("https://static.pexels.com/photos/105884/pexels-photo-105884.jpeg");
+  height: 40em;
+  background-position: center;
+  background-size: cover;
+  padding: 10em 8em;
+  border-top: 1em solid grey;
+}
+.mast-head p, .mast-head h1{
+  text-align: center;
+  color: white;
+  text-shadow:  3px 3px 1px #000;
+}
+.mast-head p{
+  font-size: 3em;
+}
+.mast-head h1{
+  font-size: 7em;
+
+}
+section{
+  margin:2em 20%;
+}
+section h1{
+  /*color: rgb(255, 153, 153);rgb(0, 128, 0)*/
+  color: rgb(125, 125, 110);
+  font-size: 3em;
+}
+section p{
+  font-size: 1.5em;
+}
+footer{
+  text-align: center;
+  background-color: white;
+  padding: 0.25em;
+}
+footer a{
+  text-decoration: none;
+  color: blue;
+  font-size: 1.5em;
+  font-weight:200;
+}
+footer a:hover{
+  color: pink;
+}
+.social li{
+  list-style-type: none;
+  display:inline;
+  margin-left: 2em;
+
+}
+@media (max-width:600px) {
+  /*less than 600px*/
+   body {
+     background: linear-gradient(red, white);
+   }
+
+  .mast-head h1 {
+  font-size: 2em;
+  }
+  section{margin: 1em 20%;
+  }
+  .nav a {
+    font-size: 1em;
+  }
+}
